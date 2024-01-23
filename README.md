@@ -12,7 +12,7 @@ Before running the script, make sure you have the following Python libraries ins
 
 You can install them using pip:
 
-### pip install requests beautifulsoup4 pandas
+`pip install requests beautifulsoup4 pandas`
 
 
 ## Usage
@@ -23,7 +23,7 @@ You can install them using pip:
 
 3. Run the script by executing the following command:
 
-### python scrape.py
+`python scrape.py`
 
 4. The script will start scraping data from the website, and the collected data will be saved to a file named `matches.csv` in the same directory.
 
