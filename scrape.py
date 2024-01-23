@@ -55,9 +55,8 @@ def main():
 
             for team_url in team_urls:
                 team_data = get_team_data(team_url, year)
-                if team_data:
+                if team_data is not None and not team_data.empty:
                     all_matches.append(team_data)
-
 
                 time.sleep(DATA_DELAY)
 
