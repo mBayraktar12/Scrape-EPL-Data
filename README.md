@@ -32,7 +32,3 @@ You can install them using pip:
 You can adjust the scraping behavior by modifying the constants in the script:
 
 - `DATA_DELAY`: Adjust the delay (in seconds) between web requests to avoid overloading the website's server.
-
-## Troubleshooting
-
-If you encounter any issues or errors while running the script, feel free to open an issue in this repository, and we'll do our best to help you.
