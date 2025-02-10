@@ -1,9 +1,36 @@
+# Ignore Python bytecode and cache
 __pycache__/
-*.py[cod]
-*.swp
-*.swo
-*.idea/
-.vscode/
-env/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
 venv/
+env/
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore CSV and other data files
+matches.csv
+*.csv
+*.xlsx
+*.json
+
+# Ignore logs
+*.log
+logs/
+debug.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore system files
 .DS_Store
+Thumbs.db
